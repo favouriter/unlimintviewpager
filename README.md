@@ -1,2 +1,4 @@
-# unlimintviewpager
-viewpager无限自动翻页，首尾完美连接
+﻿# unlimintviewpager
+viewpager无限自动翻页，首尾完美连接，
+无需首尾添加同一视图用取消动画完成，
+# 原理：在加载视图之前判断该视图是否已被加载到viewpager，如果已被加载到viewpager那么就从viewpager中移除该视图，避免一个视图对象多个父视图异常
